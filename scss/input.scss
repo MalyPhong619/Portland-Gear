@@ -2,6 +2,9 @@
 @import "mixins";
 
 header {
+  @include flex-row;
+  justify-content: space-between;
+  align-items: center;
   height: 98.5px;
   border-bottom: 1px solid $blue-green;
   img {

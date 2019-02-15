@@ -1,4 +1,8 @@
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 98.5px;
   border-bottom: 1px solid #50e3c2; }
   header img {
