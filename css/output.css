@@ -15,6 +15,19 @@ header {
   width: 90%;
   height: 100%; }
   .header-div img {
-    height: 95%; }
+    height: 65%; }
+
+.header-anchors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Raleway";
+  width: 60%; }
+  .header-anchors a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase; }
+    .header-anchors a:hover {
+      color: #50e3c2; }
 
 /*# sourceMappingURL=output.css.map */
