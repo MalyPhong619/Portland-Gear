@@ -1,14 +1,18 @@
 @import "variables";
 @import "mixins";
 
-
+body {
+  background-color: #f2f2;
+}
 header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 98.5px;
+  height: 96px;
   width: 100%;
   border-bottom: 1px solid $blue-green;
+  background-color: white;
+  opacity: .9;
 }
 .header-div {
   @include flex-row;
@@ -25,8 +29,9 @@ header {
   @include flex-row;
   justify-content: space-between;
   font-family: "Raleway";
-  width: 60%;
+  font-size: 14px;
   a {
+    width: 70px;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
