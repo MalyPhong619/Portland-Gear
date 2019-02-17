@@ -8,7 +8,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 96px;
+  height: 90px;
   width: 100%;
   border-bottom: 1px solid $blue-green;
   background-color: white;
@@ -28,9 +28,12 @@ header {
 .header-anchors {
   @include flex-row;
   justify-content: space-between;
+  align-items: center;
   font-family: "Raleway";
   font-size: 14px;
   a {
+    display: flex;
+    justify-content: center;
     width: 70px;
     text-decoration: none;
     color: black;
@@ -39,4 +42,19 @@ header {
       color: $blue-green;
     }
   }
+}
+
+#cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 90px;
+  height: 30px;
+}
+
+// above is header
+
+.container {
+  margin-top: 160px;
 }

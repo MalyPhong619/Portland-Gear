@@ -5,7 +5,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 96px;
+  height: 90px;
   width: 100%;
   border-bottom: 1px solid #50e3c2;
   background-color: white;
@@ -26,14 +26,28 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   font-family: "Raleway";
   font-size: 14px; }
   .header-anchors a {
+    display: flex;
+    justify-content: center;
     width: 70px;
     text-decoration: none;
     color: black;
     text-transform: uppercase; }
     .header-anchors a:hover {
       color: #50e3c2; }
+
+#cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 90px;
+  height: 30px; }
+
+.container {
+  margin-top: 160px; }
 
 /*# sourceMappingURL=output.css.map */
