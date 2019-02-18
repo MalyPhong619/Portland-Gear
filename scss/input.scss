@@ -255,6 +255,7 @@ button {
  }
  header {
    background-color: #eeeeee;
+   height: 60px;
  }
 }
 
@@ -285,6 +286,9 @@ button {
           display: none;
       }
     }
+    .right-side-content {
+      width: 100%;
+    }
     .right-merch {
       width: 100%;
       .merch-div {
@@ -307,6 +311,4 @@ button {
       margin-right: 10px;
     }
   }
-
-
 }

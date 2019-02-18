@@ -227,7 +227,8 @@ button {
     display: none; }
 
   header {
-    background-color: #eeeeee; } }
+    background-color: #eeeeee;
+    height: 60px; } }
 @media screen and (max-width: 767px) {
   .container {
     display: flex;
@@ -250,6 +251,8 @@ button {
       padding-top: 15px; }
     .container .left-nav-collections ul {
       display: none; }
+    .container .right-side-content {
+      width: 100%; }
     .container .right-merch {
       width: 100%; }
       .container .right-merch .merch-div {
