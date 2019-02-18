@@ -156,7 +156,21 @@ ul {
   padding-bottom: 10px; }
 
 .fab, #home-icon {
-  font-size: 2em;
+  font-size: 1.5em;
   color: white; }
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center; }
+  .links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    border: 1px solid white;
+    border-radius: 50%; }
 
 /*# sourceMappingURL=output.css.map */
