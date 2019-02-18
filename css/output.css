@@ -136,6 +136,12 @@ ul {
 .bottom-navigation {
   display: flex;
   flex-direction: row;
-  background-color: #1a1a1a; }
+  background-color: #1a1a1a;
+  width: 100%;
+  color: white; }
+  .bottom-navigation .bottom-nav-cards {
+    width: 23.75%; }
+    .bottom-navigation .bottom-nav-cards img {
+      width: 100%; }
 
 /*# sourceMappingURL=output.css.map */

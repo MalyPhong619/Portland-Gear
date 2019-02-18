@@ -155,4 +155,16 @@ ul {
 .bottom-navigation {
   @include flex-row;
   background-color: #1a1a1a;
+  width: 100%;
+  color: white;
+  .bottom-nav-cards {
+    width: (95% / 4);
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.bottom-nav-title {
+
 }
