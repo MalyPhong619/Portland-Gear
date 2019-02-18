@@ -32,12 +32,11 @@ header {
   justify-content: space-between;
   align-items: center;
   a {
+    @include decoration-transform;
     display: flex;
     justify-content: center;
     width: 70px;
-    text-decoration: none;
     color: black;
-    text-transform: uppercase;
     &:hover {
       color: $blue-green;
     }
@@ -158,20 +157,18 @@ ul {
   width: 100%;
   color: white;
   .bottom-nav-cards {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     margin: 40px 10px;
     width: (80% / 4);
     img {
       width: 100%;
     }
     a {
+      @include decoration-transform;
       margin-bottom: 10px;
       color: white;
-      text-decoration: none;
       font-family: "lato", sans-serif;
       font-size: 13px;
-      text-transform: uppercase;
       &:hover {
         color: $blue-green;
       }
@@ -240,29 +237,27 @@ button {
 }
 
 #menu-bar, #cart-media {
+  @include decoration-transform;
   display: none;
-  text-decoration: none;
-  text-transform: uppercase;
   color: black;
 }
 
 @media screen and (max-width: 960px) {
- #menu-bar, #cart-media {
-   display: block;
- }
- .header-anchors {
-   display: none;
- }
- header {
-   background-color: #eeeeee;
-   height: 60px;
- }
+  #menu-bar, #cart-media {
+    display: block;
+  }
+  .header-anchors {
+    display: none;
+  }
+  header {
+    background-color: #eeeeee;
+    height: 60px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .container {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     justify-content: center;
     align-items: center;
     width: 50%;
@@ -282,8 +277,8 @@ button {
         text-align: center;
         padding-top: 15px;
       }
-        ul {
-          display: none;
+      ul {
+        display: none;
       }
     }
     .right-side-content {
@@ -300,8 +295,7 @@ button {
     text-align: center;
   }
   .bottom-navigation {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     align-items: center;
     .bottom-nav-cards {
       width: 50%;
