@@ -6,7 +6,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 90px;
+  height: 97.5px;
   width: 100%;
   border-bottom: 1px solid #50e3c2;
   background-color: white;
@@ -18,10 +18,10 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
   height: 100%; }
   .header-div img {
-    height: 65%; }
+    height: 70%; }
 
 .header-anchors {
   display: flex;
@@ -50,7 +50,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px red solid;
   margin-top: 160px;
   margin-left: 5%;
   width: 90%; }
@@ -60,6 +59,11 @@ header {
 
 .left-nav-path, .left-nav-sortbox, .left-nav-collections {
   margin-bottom: 50px; }
+
+.left-nav-path, .left-nav-sortbox {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 13px; }
 
 .left-nav-path a {
   font-weight: lighter;
@@ -101,13 +105,23 @@ ul {
 .far {
   color: red; }
 
+.right-side-content {
+  display: flex;
+  flex-direction: column;
+  width: 77%; }
+  .right-side-content .title {
+    font-family: "Lato";
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold; }
+
 .right-merch {
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  width: 77%; }
+  width: 100%; }
   .right-merch .merch-div {
     text-align: center;
     width: 33%;
