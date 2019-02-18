@@ -49,6 +49,7 @@ header {
 .container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   border: 1px red solid;
   margin-top: 160px;
   margin-left: 5%;
@@ -105,12 +106,17 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: flex-start;
   width: 77%; }
   .right-merch .merch-div {
-    width: 25.6666666667%; }
+    text-align: center;
+    width: 33%;
+    margin: 1px; }
     .right-merch .merch-div img {
       width: 100%; }
+    .right-merch .merch-div p {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=output.css.map */
