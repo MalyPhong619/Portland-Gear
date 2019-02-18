@@ -1,54 +1,271 @@
-/*
-Error: Invalid CSS after "...ax-width: 425px": expected ")", was ";) {"
-        on line 261 of scss/input.scss
+body {
+  font-family: "Raleway";
+  font-size: 14px;
+  margin: 0; }
 
-256:  header {
-257:    background-color: #eeeeee;
-258:  }
-259: }
-260: 
-261: @media screen and (max-width: 425px;) {
-262: 
-263: 
-264:   
-265: }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 97.5px;
+  width: 100%;
+  border-bottom: 1px solid #50e3c2;
+  background-color: white;
+  opacity: .9; }
 
-Backtrace:
-scss/input.scss:261
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:1308:in `expected'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:1238:in `expected'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:1233:in `tok!'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:498:in `query_expr'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:1216:in `expr!'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:458:in `media_query'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:426:in `media_query_list'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:1216:in `expr!'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:421:in `media_directive'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:234:in `special_directive'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:209:in `directive'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:707:in `block_child'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:700:in `block_contents'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:41:in `parse'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/engine.rb:414:in `_to_tree'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Users/malyphong/.gem/ruby/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...ax-width: 425px\": expected \")\", was \";) {\"\A         on line 261 of scss/input.scss\A \A 256:  header {\A 257:    background-color: #eeeeee;\A 258:  }\A 259: }\A 260: \A 261: @media screen and (max-width: 425px;) {\A 262: \A 263: \A 264:   \A 265: }"; }
+.header-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 95%;
+  height: 100%; }
+  .header-div img {
+    height: 70%; }
+
+.header-anchors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .header-anchors a {
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase; }
+    .header-anchors a:hover {
+      color: #50e3c2; }
+
+#cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 90px;
+  height: 30px; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 160px;
+  margin-left: 5%;
+  width: 90%; }
+
+.left-nav {
+  width: 20%; }
+
+.left-nav-path, .left-nav-sortbox, .left-nav-collections {
+  margin-bottom: 50px; }
+
+.left-nav-path, .left-nav-sortbox {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 13px; }
+
+.left-nav-path a {
+  font-weight: lighter;
+  color: #383737;
+  text-decoration: none; }
+  .left-nav-path a:hover {
+    color: red; }
+
+.left-nav-sortbox select {
+  background-color: white;
+  color: #565a5c;
+  border: 1px solid #dce0e0;
+  border-radius: 4px;
+  width: 100%;
+  height: 32.4px; }
+
+.left-nav-collections {
+  font-family: "lato";
+  text-transform: uppercase; }
+
+h3 {
+  height: 25px;
+  text-align: center;
+  border-bottom: 1px solid #bbbbbb; }
+
+ul {
+  padding: 0;
+  list-style-type: none; }
+  ul li {
+    margin-bottom: 12px; }
+    ul li a {
+      font-weight: 400;
+      color: black;
+      text-decoration: none;
+      padding-left: 10px; }
+      ul li a:hover {
+        border-left: solid 4px #33cccc; }
+
+.far {
+  color: red; }
+
+.right-side-content {
+  display: flex;
+  flex-direction: column;
+  width: 77%; }
+  .right-side-content .title {
+    font-family: "Lato";
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+.right-merch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%; }
+  .right-merch .merch-div {
+    text-align: center;
+    width: 33%;
+    margin: 1px; }
+    .right-merch .merch-div img {
+      width: 100%; }
+    .right-merch .merch-div p {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase; }
+
+.bottom-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #1a1a1a;
+  width: 100%;
+  color: white; }
+  .bottom-navigation .bottom-nav-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 10px;
+    width: 20%; }
+    .bottom-navigation .bottom-nav-cards img {
+      width: 100%; }
+    .bottom-navigation .bottom-nav-cards a {
+      margin-bottom: 10px;
+      color: white;
+      text-decoration: none;
+      font-family: "lato", sans-serif;
+      font-size: 13px;
+      text-transform: uppercase; }
+      .bottom-navigation .bottom-nav-cards a:hover {
+        color: #50e3c2; }
+
+.bottom-nav-title {
+  font-family: "lato";
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+  padding-bottom: 10px; }
+
+.fab, #home-icon {
+  font-size: 1.5em; }
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center; }
+  .links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%; }
+    .links a:hover {
+      color: #50e3c2;
+      border-color: #50e3c2; }
+
+#white-logo {
+  margin-bottom: 20px; }
+
+button {
+  background: #4de1c6;
+  color: white;
+  border-radius: 0px;
+  height: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  text-transform: uppercase; }
+
+#bottom-input {
+  font-size: 1em;
+  background: none;
+  border: 1px solid white;
+  border-radius: 0px;
+  height: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; }
+  #bottom-input::placeholder {
+    color: white;
+    padding-left: 5px; }
+
+#menu-bar, #cart-media {
+  display: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black; }
+
+@media screen and (max-width: 960px) {
+  #menu-bar, #cart-media {
+    display: block; }
+
+  .header-anchors {
+    display: none; }
+
+  header {
+    background-color: #eeeeee; } }
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 160px auto 0 auto; }
+    .container .left-nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%; }
+    .container .left-nav-collections h3 {
+      width: 100%;
+      height: 35px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding-top: 15px; }
+    .container .left-nav-collections ul {
+      display: none; }
+    .container .right-merch {
+      width: 100%; }
+      .container .right-merch .merch-div {
+        width: 49%; }
+
+  .bottom-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .bottom-navigation .bottom-nav-cards {
+      width: 50%; }
+
+  .links {
+    display: flex;
+    justify-content: flex-start; }
+    .links a {
+      margin-right: 10px; } }
+
+/*# sourceMappingURL=output.css.map */
