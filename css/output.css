@@ -56,25 +56,26 @@ header {
   border: 1px solid green;
   width: 20%; }
 
-.left-nav-path {
-  font-size: 0.8em; }
-  .left-nav-path a {
-    text-decoration: none;
-    color: black; }
-    .left-nav-path a:hover {
-      color: red; }
+.left-nav-path, .left-nav-sortbox, .left-nav-collections {
+  margin-bottom: 50px; }
 
-.left-nav-sortbox {
-  font-size: 0.8em; }
-  .left-nav-sortbox select {
-    background-color: white;
-    color: #565a5c;
-    border: 1px solid #dce0e0;
-    border-radius: 4px;
-    width: 90%;
-    height: 32.4px; }
+.left-nav-path a {
+  font-weight: lighter;
+  color: #383737;
+  text-decoration: none; }
+  .left-nav-path a:hover {
+    color: red; }
+
+.left-nav-sortbox select {
+  background-color: white;
+  color: #565a5c;
+  border: 1px solid #dce0e0;
+  border-radius: 4px;
+  width: 100%;
+  height: 32.4px; }
 
 .left-nav-collections {
+  font-family: "lato";
   text-transform: uppercase; }
 
 h3 {
@@ -83,8 +84,16 @@ h3 {
   border-bottom: 1px solid #bbbbbb; }
 
 ul {
+  padding: 0;
   list-style-type: none; }
-  ul li > a:hover {
-    border-left: solid 4px #33cccc; }
+  ul li {
+    margin-bottom: 12px; }
+    ul li a {
+      font-weight: 400;
+      color: black;
+      text-decoration: none;
+      padding-left: 10px; }
+      ul li a:hover {
+        border-left: solid 4px #33cccc; }
 
 /*# sourceMappingURL=output.css.map */
