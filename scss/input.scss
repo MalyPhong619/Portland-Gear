@@ -54,9 +54,9 @@ header {
 .container {
   @include flex-row;
   justify-content: space-between;
-  margin-top: 160px;
-  margin-left: 5%;
-  width: 90%;
+  margin-top: 210px;
+  margin-left: 2.5%;
+  width: 95%;
 }
 .left-nav {
   width: 20%;
@@ -295,6 +295,9 @@ button {
         width: (98%/2);
       }
     }
+  }
+  .left-nav-path {
+    text-align: center;
   }
   .bottom-navigation {
     display: flex;
