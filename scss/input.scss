@@ -2,7 +2,8 @@
 @import "mixins";
 
 body {
-  background-color: #f2f2;
+  font-family: "Raleway";
+  font-size: 14px;
 }
 header {
   position: fixed;
@@ -29,8 +30,6 @@ header {
   @include flex-row;
   justify-content: space-between;
   align-items: center;
-  font-family: "Raleway";
-  font-size: 14px;
   a {
     display: flex;
     justify-content: center;
@@ -56,5 +55,36 @@ header {
 // above is header
 
 .container {
+  border: 1px red solid;
   margin-top: 160px;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.left-nav {
+  border: 1px solid green;
+  width: 20%;
+}
+
+.left-nav-path {
+  font-size: $smaller-font;
+  a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.left-nav-sortbox {
+  font-size: $smaller-font;
+  select {
+    background-color: white;
+    color: $select-color;
+    border: 1px solid #dce0e0;
+    border-radius: 4px;
+    width: 90%;
+    height: 32.4px;
+  }
 }

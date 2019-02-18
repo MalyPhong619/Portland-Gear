@@ -1,5 +1,6 @@
 body {
-  background-color: #f2f2; }
+  font-family: "Raleway";
+  font-size: 14px; }
 
 header {
   position: fixed;
@@ -26,9 +27,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  font-family: "Raleway";
-  font-size: 14px; }
+  align-items: center; }
   .header-anchors a {
     display: flex;
     justify-content: center;
@@ -48,6 +47,31 @@ header {
   height: 30px; }
 
 .container {
-  margin-top: 160px; }
+  border: 1px red solid;
+  margin-top: 160px;
+  margin-left: 5%;
+  width: 90%; }
+
+.left-nav {
+  border: 1px solid green;
+  width: 20%; }
+
+.left-nav-path {
+  font-size: 0.8em; }
+  .left-nav-path a {
+    text-decoration: none;
+    color: black; }
+    .left-nav-path a:hover {
+      color: red; }
+
+.left-nav-sortbox {
+  font-size: 0.8em; }
+  .left-nav-sortbox select {
+    background-color: white;
+    color: #565a5c;
+    border: 1px solid #dce0e0;
+    border-radius: 4px;
+    width: 90%;
+    height: 32.4px; }
 
 /*# sourceMappingURL=output.css.map */
