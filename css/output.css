@@ -1,6 +1,7 @@
 body {
   font-family: "Raleway";
-  font-size: 14px; }
+  font-size: 14px;
+  margin: 0; }
 
 header {
   position: fixed;
@@ -136,12 +137,26 @@ ul {
 .bottom-navigation {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
   background-color: #1a1a1a;
   width: 100%;
   color: white; }
   .bottom-navigation .bottom-nav-cards {
-    width: 23.75%; }
+    margin: 40px 10px;
+    width: 20%; }
     .bottom-navigation .bottom-nav-cards img {
       width: 100%; }
+
+.bottom-nav-title {
+  font-family: "lato";
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+  padding-bottom: 10px; }
+
+.fab, #home-icon {
+  font-size: 2em;
+  color: white; }
 
 /*# sourceMappingURL=output.css.map */

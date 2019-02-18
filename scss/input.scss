@@ -4,6 +4,7 @@
 body {
   font-family: "Raleway";
   font-size: 14px;
+  margin: 0;
 }
 header {
   position: fixed;
@@ -154,11 +155,14 @@ ul {
 
 .bottom-navigation {
   @include flex-row;
+  justify-content: space-around;
+  align-items: flex-start;
   background-color: #1a1a1a;
   width: 100%;
   color: white;
   .bottom-nav-cards {
-    width: (95% / 4);
+    margin: 40px 10px;
+    width: (80% / 4);
     img {
       width: 100%;
     }
@@ -166,5 +170,14 @@ ul {
 }
 
 .bottom-nav-title {
+  font-family: "lato";
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
 
+.fab, #home-icon {
+  font-size: 2em;
+  color: white;
 }
