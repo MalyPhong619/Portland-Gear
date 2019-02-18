@@ -47,13 +47,14 @@ header {
   height: 30px; }
 
 .container {
+  display: flex;
+  flex-direction: row;
   border: 1px red solid;
   margin-top: 160px;
   margin-left: 5%;
   width: 90%; }
 
 .left-nav {
-  border: 1px solid green;
   width: 20%; }
 
 .left-nav-path, .left-nav-sortbox, .left-nav-collections {
@@ -95,5 +96,21 @@ ul {
       padding-left: 10px; }
       ul li a:hover {
         border-left: solid 4px #33cccc; }
+
+.far {
+  color: red; }
+
+.right-merch {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 77%; }
+  .right-merch .merch-div {
+    width: 25.6666666667%; }
+    .right-merch .merch-div img {
+      width: 100%; }
 
 /*# sourceMappingURL=output.css.map */
