@@ -4,8 +4,11 @@
 
 #### By _**Maly Phongsavanh**_
 
-![Portland Gear Site](imgs/Main-Site.png)
-![Portland Gear Clone](imgs/Site-Clone.png)
+Portland Gear | Portland Gear Clone
+--------------- | -------------
+<img src="imgs/Main-Site.png" height="150px"> |<img src="imgs/Site-Clone.png" height="150px">
+
+
 
 
 ## Description
