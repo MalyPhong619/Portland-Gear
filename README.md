@@ -9,11 +9,11 @@ Portland Gear | Portland Gear Clone
 <img src="imgs/Main-Site.png" height="150px"> |<img src="imgs/Site-Clone.png" height="150px">
 
 
-
-
 ## Description
 
 _This webpage uses sass to style the html clone of [Portland Gear Sweatshirts Webpage](https://portlandgear.com/collections/sweatshirts). The sass file shows use of mixins and variables with sass/css properties, media queries and also gives the programmer a copious amount of practice using flex properties._
+
+## Hosted with [GH-Pages](https://malyphong619.github.io/Portland-Gear/)
 
 
 ## Setup/Installation
@@ -33,5 +33,5 @@ _If there are any questions or would like to contribute to the code, please feel
 * _SASS_
 
 ### License
-*This software is licensed under the MIT license*
+* _This software is licensed under the MIT license_*
 Copyright (c) 2019 **_Maly Phongsavanh_**
