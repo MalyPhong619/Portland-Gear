@@ -33,5 +33,5 @@ _If there are any questions or would like to contribute to the code, please feel
 * _SASS_
 
 ### License
-* _This software is licensed under the MIT license_*
+_This software is licensed under the MIT license_*
 Copyright (c) 2019 **_Maly Phongsavanh_**
