@@ -274,6 +274,10 @@ button {
 }
 
 @media screen and (max-width: 767px) {
+  .header-div > img {
+    display: none;
+  }
+
   .container {
     @include flex-column;
     justify-content: center;
@@ -301,11 +305,11 @@ button {
     }
     .right-side-content {
       width: 100%;
-    }
     .right-merch {
       width: 100%;
       .merch-div {
         width: (98%/2);
+      }
       }
     }
   }

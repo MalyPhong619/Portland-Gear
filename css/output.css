@@ -243,6 +243,9 @@ button {
         width: 31.6666666667%; }
 
 @media screen and (max-width: 767px) {
+  .header-div > img {
+    display: none; }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -266,10 +269,10 @@ button {
       display: none; }
     .container .right-side-content {
       width: 100%; }
-    .container .right-merch {
-      width: 100%; }
-      .container .right-merch .merch-div {
-        width: 49%; }
+      .container .right-side-content .right-merch {
+        width: 100%; }
+        .container .right-side-content .right-merch .merch-div {
+          width: 49%; }
 
   .left-nav-path {
     text-align: center; }
