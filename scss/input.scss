@@ -242,6 +242,7 @@ button {
   color: black;
 }
 
+
 @media screen and (max-width: 960px) {
   #menu-bar, #cart-media {
     display: block;
@@ -252,6 +253,16 @@ button {
   header {
     background-color: #eeeeee;
     height: 60px;
+  }
+}
+
+.container {
+  width: 94%;
+  .left-nav {
+    width: 25%;
+  }
+  .right-side-content {
+    width: 73%;
   }
 }
 

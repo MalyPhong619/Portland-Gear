@@ -229,6 +229,13 @@ button {
   header {
     background-color: #eeeeee;
     height: 60px; } }
+.container {
+  width: 94%; }
+  .container .left-nav {
+    width: 25%; }
+  .container .right-side-content {
+    width: 73%; }
+
 @media screen and (max-width: 767px) {
   .container {
     display: flex;
