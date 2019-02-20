@@ -221,7 +221,8 @@ button {
 
 @media screen and (max-width: 960px) {
   #menu-bar, #cart-media {
-    display: block; }
+    display: block;
+    letter-spacing: .3em; }
 
   .header-anchors {
     display: none; }
@@ -237,7 +238,7 @@ button {
     width: 78%; }
     .container .right-side-content .right-merch {
       display: flex;
-      display: row; }
+      flex-direction: row; }
       .container .right-side-content .right-merch .merch-div {
         width: 31.6666666667%; }
 

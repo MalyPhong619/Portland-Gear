@@ -246,6 +246,7 @@ button {
 @media screen and (max-width: 960px) {
   #menu-bar, #cart-media {
     display: block;
+    letter-spacing: .3em;
   }
   .header-anchors {
     display: none;
@@ -264,8 +265,7 @@ button {
   .right-side-content {
     width: 78%;
     .right-merch {
-      display: flex;
-      display: row;
+      @include flex-row;
       .merch-div {
         width: (95% / 3);
       }
