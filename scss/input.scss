@@ -259,10 +259,17 @@ button {
 .container {
   width: 94%;
   .left-nav {
-    width: 25%;
+    width: 20%;
   }
   .right-side-content {
-    width: 73%;
+    width: 78%;
+    .right-merch {
+      display: flex;
+      display: row;
+      .merch-div {
+        width: (95% / 3);
+      }
+    }
   }
 }
 

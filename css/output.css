@@ -232,9 +232,14 @@ button {
 .container {
   width: 94%; }
   .container .left-nav {
-    width: 25%; }
+    width: 20%; }
   .container .right-side-content {
-    width: 73%; }
+    width: 78%; }
+    .container .right-side-content .right-merch {
+      display: flex;
+      display: row; }
+      .container .right-side-content .right-merch .merch-div {
+        width: 31.6666666667%; }
 
 @media screen and (max-width: 767px) {
   .container {
