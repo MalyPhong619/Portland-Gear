@@ -15,7 +15,7 @@ _This webpage uses sass to style the html clone of [Portland Gear Sweatshirts We
 
 ## Hosted with [GH-Pages](https://malyphong619.github.io/Portland-Gear/)
 *[Portland Gear Clone Site](https://malyphong619.github.io/Portland-Gear/)
-*[Portland Gear Site](https://malyphong619.github.io/Portland-Gear/)
+*[Portland Gear Site](https://portlandgear.com/collections/mens)
 
 ## Setup/Installation
 
