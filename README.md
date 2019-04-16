@@ -14,7 +14,8 @@ Portland Gear | Portland Gear Clone
 _This webpage uses sass to style the html clone of [Portland Gear Sweatshirts Webpage](https://portlandgear.com/collections/sweatshirts). The sass file shows use of mixins and variables with sass/css properties, media queries and also gives the designer a copious amount of practice using flex properties._
 
 ## Hosted with [GH-Pages](https://malyphong619.github.io/Portland-Gear/)
-
+*[Portland Gear Clone Site](https://malyphong619.github.io/Portland-Gear/)
+*[Portland Gear Site](https://malyphong619.github.io/Portland-Gear/)
 
 ## Setup/Installation
 
